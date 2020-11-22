@@ -65,12 +65,14 @@ body {
   background-image: url("bg-img.svg");
   background-repeat: repeat;
   margin: 0;
+
 }
 .footer{
     background-color: #303030;
     color:#fcfaf7;
     margin: 0;
     padding: 20px;
+
 }
 .footer a{
     text-decoration: none;
@@ -102,6 +104,13 @@ body {
 
 .footer #Policylist li a {
     margin: 0;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer #webmasterslist {
+    text-decoration: none;
+    list-style-type: none;
     color: #ffffff;
     padding: 0;
 }
@@ -142,28 +151,32 @@ body {
 
 <!- CODING FOR PAGE BY UDESH STARTED HERE (REMOVE THIS LATER)-->
 
-table,tr {
-	
-margin:0px;
-padding:0px;
-width:100%;
+table {    
+
+border-collapse: collapse;
 
 }
+
+td {
+  padding:2%;
+}
+
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+}
+
+
 
 caption {
-color:white;
-font-size:36px;	
+text-align:center;
 }
 
-th {
 
-padding:1%;
-width:33.33%;
-position:relative;
-
-
-
-}
 
 .button {
 
