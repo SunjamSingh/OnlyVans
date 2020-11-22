@@ -105,6 +105,12 @@ body {
     color: #ffffff;
     padding: 0;
 }
+.footer #webmasterslist {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
 .column {
   float: left;
   width: 33.3333%;
