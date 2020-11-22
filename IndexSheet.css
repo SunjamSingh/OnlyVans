@@ -190,7 +190,14 @@ body {
     display: block;
     width: 80%;
     padding-top: 35%;
-        
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1),
+and (min-device-width: 1000px), 
+and (max-device-width: 1600px)  { 
+    .parallax {background-attachment: scrolling;}  
+} 
+@media screen and (min-resolution: 192dpi) { 
+    .parallax {background-attachment: scrolling;}  
 }
 .productshome {
     width: 80%;

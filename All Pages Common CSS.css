@@ -6,10 +6,12 @@
   src: url(fonts/marguerite.ttf);
 }
 
-h1 {
+.header h1 {
     text-align: center;
     font-family: Onlyvans;
-    font-size: 300%
+    font-size: 300%;
+    color: #19c2ff;
+    font-weight: bold;
 }
 .header {
     background-color: #c7c7c798;
