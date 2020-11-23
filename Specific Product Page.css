@@ -194,6 +194,23 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 <!- CODING FOR PAGE BY UDESH STARTED HERE (REMOVE THIS LATER)-->
 
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 
 
 
@@ -214,7 +231,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  float: right;
 }
 
 

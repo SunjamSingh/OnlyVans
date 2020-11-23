@@ -43,19 +43,16 @@
    
    <div class="row">
  <div class="column" style="background-color: #36363697; margin-right: 0.5%">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_Force_1_Shadow_Multicolor/Nike_Air_Force_1_shadow_multicolor_img2.jpg" alt="Nike Air Force 1 Shadow Multicolor">
-    <p>Nike Air Force 1 Shadow Multicolor</p><p>Price:$150</p>
-    </a>
+    <a href="Specific%20Product%20Page.html"  onclick="Product19()"><img  id="ProductImage19" src="Products/Nike_Air_Force_1_Shadow_Multicolor/Nike_Air_Force_1_shadow_multicolor_img2.jpg" alt="Nike Air Force 1 Shadow Mulitcolor">
+        <p> Nike Air Force 1 Shadow Mulitcolor <p> <p>Price:$150</p></a>
  </div>
  <div class="column" style="background-color: #36363697; margin-right: 0.5%;">
-     <a href="Specific%20Product%20Page.html"><img src="Products/Nike_x_Travis_Scott/Nike_x_Travis_Scott_img1.jpg" alt="Nike x Travis Scott">
-     <p>Nike x Travis Scott</p> <p>Price:$450</p>
-     </a>
+     <a href="Specific%20Product%20Page.html"  onclick="Product21()"><img id="ProductImage21" src="Products/Nike_x_Travis_Scott/Nike_x_Travis_Scott_img1.jpg" alt="Nike x Travis Scott">
+        <p> Nike x Travis Scott<p> <p>Price:$450</p></a>
  </div>
  <div class="column" style="background-color: #36363697;">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Adidas_yeezy_700_v2_static/Adidas_yeezy_700_v2_img3.jpg" alt="Adidas Yeezy 700 v2 Static">
-    <p>Adidas Yeezy 700 v2 Static</p><p>Price:$300</p>
-    </a>
+    <a href="Specific%20Product%20Page.html"  onclick="Product13()"><img id="ProductImage13" src="Products/Adidas_yeezy_700_v2_static/Adidas_yeezy_700_v2_img3.jpg" alt="Adidas Yeezy 700 v2 Static">
+        <p> Adidas Yeezy 700 v2 Static <p> <p>Price:$300</p></a>
  </div>
     </div>
    </div>
@@ -64,19 +61,17 @@
    <img src="Products/Discount_page.png" alt="Discounted Products Image"><br><br>
    <div class="row">
  <div class="column" style="background-color: #36363697; margin-right: 0.5%">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Adidas_superstar/Adidas_Superstar_img3.jpg" alt="Adidas Superstar">
-    <p>Adidas Superstar</p><p>Price:$75</p>
-    </a>
+    <a href="Specific%20Product%20Page.html" onclick="Product4()"><img id="ProductImage4" src="Products/Adidas_superstar/Adidas_Superstar_img3.jpg" alt="Adidas Superstar" >
+         <p> Adidas Superstar <p> <p>Price:$75</p></a>
  </div>
  <div class="column" style="background-color: #36363697; margin-right: 0.5%;">
-     <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_Force_1_white/Nike_Air_Force_1_img3.jpg" alt="Nike Air Force 1 White"  >
-     <p>Nike Air Force 1 White</p> <p>Price:$50</p>
-     </a>
+    <a href="Specific%20Product%20Page.html"  onclick="Product22()"><img id="ProductImage22" src="Products/Nike_Air_Force_1_white/Nike_Air_Force_1_img3.jpg" alt="Nike Airforce 1 White" >
+        <p> Nike Airforce 1 White <p> <p>Price:$50</p></a>
  </div>
  <div class="column" style="background-color: #36363697;">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_Jordan_4_retro_black_and_orange/Nike_Air_Jordan_4_retro_blackorange_img1.jpg" alt="Nike Air Jordan 4 retro black,orange">
-    <p>Nike Air Jordan 4 retro black,orange</p><p>Price:$125</p>
-    </a>
+    <a href="Specific%20Product%20Page.html"  onclick="Product30()"><img id="ProductImage30" src="Products/Nike_Air_Jordan_4_retro_black_and_orange/Nike_Air_Jordan_4_retro_blackorange_img1.jpg" alt="Nike Air Jordan 4 retro black,orange">
+        <p> Nike Air Jordan 4 retro black,orange <p> <p>Price:$125</p></a>
+  
  </div>
     </div>
    </div>
@@ -128,5 +123,68 @@
 </div>
 <div style="background-color:#303030;">
 <br><p id="disclaimer">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p> <br></div>
+
+
+<script> 
+
+         function Product19() { 
+	var name = "Adidas Human race nmd" ;
+   localStorage.setItem("Nike Air Force 1 Shadow Mulitcolor", name);
+	var price =  "Price:$150";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+
+
+         function Product21() { 
+	var name = "Nike x Travis Scott" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "Price:$450";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+
+
+         function Product13() { 
+	var name = "Adidas Yeezy 700 v2 Static" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "Price:$300";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+
+         function Product4() { 
+	var name = "Adidas Superstar" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "Price:$75";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+
+         function Product22() { 
+	var name = "Nike Airforce 1 White" ;
+   localStorage.setItem("ProductName", name);
+	var price = "Price:$50";
+	localStorage.setItem("ProductPrice", price);
+	
+
+	
+}
+
+
+         function Product30() { 
+	var name = "Nike Air Jordan 4 retro black,orange" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "Price:$125";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+</script>
+
 
 </body>

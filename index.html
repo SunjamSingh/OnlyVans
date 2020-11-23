@@ -56,18 +56,16 @@ OnlyVans is an online shoe store made for all you sneakerheads out there. From t
 <h1 style="text-align: center; background-color:#36363697; color: #ffffff; padding: 2% ">Popular Products</h1>
 <div class="row">
  <div class="column" style="background-color: #36363697; margin-right: 0.5%">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_Force_1_Shadow_Multicolor/Nike_Air_Force_1_shadow_multicolor_img2.jpg" >
-    <p>Nike Air Force 1 Shadow Multicolor</p><p>Price:$150</p>
-    </a>
+    <a href="Specific%20Product%20Page.html"><a href="Specific%20Product%20Page.html"  onclick="Product19()"><img  id="ProductImage19" src="Products/Nike_Air_Force_1_Shadow_Multicolor/Nike_Air_Force_1_shadow_multicolor_img2.jpg" alt="Nike Air Force 1 Shadow Mulitcolor">
+        <p> Nike Air Force 1 Shadow Mulitcolor <p> <p>Price:$150</p></a>
  </div>
  <div class="column" style="background-color: #36363697; margin-right: 0.5%;">
-     <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_Force_1_white/Nike_Air_Force_1_img3.jpg"  >
-     <p>Nike Air Force 1 White </p> <p>Price:$50</p>
-     </a>
+     <a href="Specific%20Product%20Page.html"><a href="Specific%20Product%20Page.html"  onclick="Product22()"><img id="ProductImage22" src="Products/Nike_Air_Force_1_white/Nike_Air_Force_1_img3.jpg" alt="Nike Airforce 1 White" >
+        <p> Nike Airforce 1 White <p> <p>Price:$50</p></a>
  </div>
  <div class="column" style="background-color: #36363697;">
-    <a href="Specific%20Product%20Page.html"><img src="Products/Nike_Air_jordan_retro_green/Nike_Air_Jordan_Retro_Green_img1.jpg">
-    <p>Nike Air Jordan 1 Retro Green</p><p>Price:$105</p>
+    <a href="Specific%20Product%20Page.html"><a href="Specific%20Product%20Page.html"  onclick="Product20()"><img id="ProductImage20" src="Products/Nike_Air_jordan_retro_green/Nike_Air_Jordan_Retro_Green_img1.jpg" alt="Nike Air Jordan Retro Green" >
+        <p> Nike Air Jordan Retro Green <p> <p>Price:$105 </p></a>
     </a>
  </div>
     </div>
@@ -119,5 +117,41 @@ OnlyVans is an online shoe store made for all you sneakerheads out there. From t
 </div>
 <div style="background-color:#303030;">
 <br><p id="disclaimer">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p> <br></div>
+
+<script> 
+
+
+         function Product19() { 
+	var name = "Adidas Human race nmd" ;
+   localStorage.setItem("Nike Air Force 1 Shadow Mulitcolor", name);
+	var price =  "Price:$150";
+	localStorage.setItem("ProductPrice", price);
+	
+}
+
+
+
+         function Product22() { 
+	var name = "Nike Airforce 1 White" ;
+   localStorage.setItem("ProductName", name);
+	var price = "Price:$50";
+	localStorage.setItem("ProductPrice", price);
+	
+
+	
+}
+
+
+
+         function Product20() { 
+	var name = "Nike Air Jordan Retro Green" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "Price:$105 ";
+	localStorage.setItem("ProductPrice", price);
+
+	
+}
+
+</script>
 
 </body>

@@ -161,30 +161,6 @@
 
 <script> 
 
-
-function getBase64Image(img) {
-    // Create an empty canvas element
-    var canvas = document.createElement("canvas");
-    canvas.width = img.width;
-    canvas.height = img.height;
-
-    // Copy the image contents to the canvas
-    var ctx = canvas.getContext("2d");
-    ctx.drawImage(img, 0, 0);
-
-    // Get the data-URL formatted image
-    var dataURL = canvas.toDataURL("image/png");
-
-    return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
-}
-
-
-ProductImage = document.getElementById('ProductImage1');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage1", imgData);
-
-
          function Product1() { 
 	var name = "Adidas Huamn Race NMD 1" ;
    localStorage.setItem("ProductName", name);
@@ -193,12 +169,6 @@ localStorage.setItem("ProductImage1", imgData);
 	
 }
 
-
-
-ProductImage = document.getElementById('ProductImage2');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage2", imgData);
 
 
          function Product2() { 
@@ -213,14 +183,6 @@ localStorage.setItem("ProductImage2", imgData);
 	
 }
 
-
-
-ProductImage = document.getElementById('ProductImage3');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage3", imgData);
-
-
          function Product3() { 
 	var name = "Nike Air Max 90 FlyEase" ;
    localStorage.setItem("ProductName", name);
@@ -230,12 +192,6 @@ localStorage.setItem("ProductImage3", imgData);
 
 	
 }
-
-
-ProductImage = document.getElementById('ProductImage4');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage4", imgData);
 
          function Product4() { 
 	var name = "Adidas Superstar" ;
@@ -247,12 +203,6 @@ localStorage.setItem("ProductImage4", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage5');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage5", imgData);
-
-
          function Product5() { 
 	var name = "Nike Air Jordan 1 Orange" ;
    localStorage.setItem("ProductName", name);
@@ -261,26 +211,14 @@ localStorage.setItem("ProductImage5", imgData);
 	
 }
 
-ProductImage = document.getElementById('ProductImage6');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage6", imgData);
-
 
          function Product6() { 
-	var name = "Nike Air Max 90 Premium Curry<" ;
+	var name = "Nike Air Max 90 Premium Curry" ;
    localStorage.setItem("ProductName", name);
 	var price =  "Price:$200";
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-
-ProductImage = document.getElementById('ProductImage7');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage7", imgData);
 
 
          function Product7() { 
@@ -294,13 +232,6 @@ localStorage.setItem("ProductImage7", imgData);
 
 
 
-
-ProductImage = document.getElementById('ProductImage8');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage8", imgData);
-
-
          function Product8() { 
 	var name = "Nike Air Jordan 1 Suede" ;
    localStorage.setItem("ProductName", name);
@@ -312,13 +243,6 @@ localStorage.setItem("ProductImage8", imgData);
 }
 
 
-
-ProductImage = document.getElementById('ProductImage9');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage9", imgData);
-
-
          function Product9() { 
 	var name = "Nike Air Max 98 La Mezcla " ;
    localStorage.setItem("ProductName", name);
@@ -328,12 +252,6 @@ localStorage.setItem("ProductImage9", imgData);
 }
 
 
-ProductImage = document.getElementById('ProductImage10');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage10", imgData);
-
-
          function Product10() { 
 	var name = "Adidas Yeezy 350 v4 Black " ;
    localStorage.setItem("ProductName", name);
@@ -341,12 +259,6 @@ localStorage.setItem("ProductImage10", imgData);
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-ProductImage = document.getElementById('ProductImage11');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage11", imgData);
 
 
          function Product11() { 
@@ -359,13 +271,6 @@ localStorage.setItem("ProductImage11", imgData);
 }
 
 
-
-ProductImage = document.getElementById('ProductImage12');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage12", imgData);
-
-
          function Product12() { 
 	var name = "Nike Air Vapor Max Red,White" ;
    localStorage.setItem("ProductName", name);
@@ -373,14 +278,6 @@ localStorage.setItem("ProductImage12", imgData);
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-
-
-ProductImage = document.getElementById('ProductImage13');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage13", imgData);
 
 
          function Product13() { 
@@ -393,12 +290,6 @@ localStorage.setItem("ProductImage13", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage14');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage14", imgData);
-
-
          function Product14() { 
 	var name = "Nike Air Jordan 6 x SocialStatus" ;
    localStorage.setItem("ProductName", name);
@@ -407,14 +298,6 @@ localStorage.setItem("ProductImage14", imgData);
 	
 
 }
-
-
-
-
-ProductImage = document.getElementById('ProductImage15');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage15", imgData);
 
 
          function Product15() { 
@@ -426,14 +309,6 @@ localStorage.setItem("ProductImage15", imgData);
 }
 
 
-
-
-ProductImage = document.getElementById('ProductImage16');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage16", imgData);
-
-
          function Product16() { 
 	var name = "Converse Chuck Taylor" ;
    localStorage.setItem("ProductName", name);
@@ -441,14 +316,6 @@ localStorage.setItem("ProductImage16", imgData);
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-
-
-ProductImage = document.getElementById('ProductImage17');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage17", imgData);
 
 
          function Product17() { 
@@ -461,13 +328,6 @@ localStorage.setItem("ProductImage17", imgData);
 
 
 
-
-ProductImage = document.getElementById('ProductImage18');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage18", imgData);
-
-
          function Product18() { 
 	var name = "Nike x Commes de Garcons" ;
    localStorage.setItem("ProductName", name);
@@ -475,13 +335,6 @@ localStorage.setItem("ProductImage18", imgData);
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-
-ProductImage = document.getElementById('ProductImage19');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage19", imgData);
 
 
          function Product19() { 
@@ -495,12 +348,6 @@ localStorage.setItem("ProductImage19", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage20');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage20", imgData);
-
-
          function Product20() { 
 	var name = "Nike Air Jordan Retro Green" ;
    localStorage.setItem("ProductName", name);
@@ -512,12 +359,6 @@ localStorage.setItem("ProductImage20", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage21');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage21", imgData);
-
-
          function Product21() { 
 	var name = "Nike x Travis Scott" ;
    localStorage.setItem("ProductName", name);
@@ -526,12 +367,6 @@ localStorage.setItem("ProductImage21", imgData);
 	
 }
 
-
-
-ProductImage = document.getElementById('ProductImage22');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage22", imgData);
 
 
          function Product22() { 
@@ -546,12 +381,6 @@ localStorage.setItem("ProductImage22", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage23');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage23", imgData);
-
-
          function Product23() { 
 	var name = "Nike Air Jordan Retro LowRise Orange" ;
    localStorage.setItem("ProductName", name);
@@ -564,12 +393,6 @@ localStorage.setItem("ProductImage23", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage24');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage24", imgData);
-
-
          function Product24() { 
 	var name = "Vans Old Skool Black " ;
    localStorage.setItem("ProductName", name);
@@ -577,13 +400,6 @@ localStorage.setItem("ProductImage24", imgData);
 	localStorage.setItem("ProductPrice", price);
 	
 }
-
-
-
-ProductImage = document.getElementById('ProductImage25');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage25", imgData);
 
 
          function Product25() { 
@@ -597,11 +413,6 @@ localStorage.setItem("ProductImage25", imgData);
 
 
 
-ProductImage = document.getElementById('ProductImage26');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage26", imgData);
-
 
          function Product26() { 
 	var name = "Nike Air Max 2090 White" ;
@@ -613,12 +424,6 @@ localStorage.setItem("ProductImage26", imgData);
 	
 }
 
-ProductImage = document.getElementById('ProductImage27');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage27", imgData);
-
-
          function Product27() { 
 	var name = "Nike Air Force 1 x Carhartt WIP" ;
    localStorage.setItem("ProductName", name);
@@ -627,10 +432,6 @@ localStorage.setItem("ProductImage27", imgData);
 	
 }
 
-ProductImage = document.getElementById('ProductImage28');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage28", imgData);
 
 
          function Product28() { 
@@ -642,10 +443,6 @@ localStorage.setItem("ProductImage28", imgData);
 	
 }
 
-ProductImage = document.getElementById('ProductImage29');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage29", imgData);
 
 
          function Product29() { 
@@ -657,11 +454,6 @@ localStorage.setItem("ProductImage29", imgData);
 	
 }
 
-
-ProductImage = document.getElementById('ProductImage30');
-imgData = getBase64Image(ProductImage);
-console.log(imgData);
-localStorage.setItem("ProductImage30", imgData);
 
 
          function Product30() { 
