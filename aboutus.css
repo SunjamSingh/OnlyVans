@@ -75,8 +75,7 @@ body {
     width: 92%;
 }
 
-.Terms
-{
+.Terms{
     background-color: #36363697;
     box-sizing: border-box;
     color: #fcfaf7;
@@ -98,6 +97,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 92%;
+}
+.webaccessibility a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.webaccessibility a:hover {
+    color: #ffffff;
+    background-color: #19c2ff;
 }
 .footer{
     background-color: #303030;

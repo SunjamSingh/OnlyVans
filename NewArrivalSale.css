@@ -62,7 +62,14 @@ body {
   margin: 0;
 }
 
-
+.newarrivals img {
+    height: 100%;
+    width: 100%;
+}
+.discount img {
+    height: 100%;
+    width: 100%;
+}
 
 .footer{
     background-color: #303030;
