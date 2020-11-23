@@ -9,13 +9,53 @@
 <link rel="stylesheet" href="Menproduct.css">
 <link rel="icon" href="OV_Favicon.ico" type="image/x-icon" />
 
+
+<script> 
+         function Product1() { 
+	var name = "Adidas Human race nmd" ;
+   localStorage.setItem("ProductName", name);
+	var price =  "$150";
+	localStorage.setItem("ProductPrice", price);
+	}
+
+	
+
+// Get a reference to the image element
+var ProductImage1 = document.getElementById("ProductImage1");
+
+// Take action when the image has loaded
+ProductImage1.addEventListener("load", function () {
+    var imgCanvas = document.createElement("canvas"),
+        imgContext = imgCanvas.getContext("2d");
+    // Make sure canvas is as big as the picture
+    imgCanvas.width = ProductImage1.width;
+    imgCanvas.height = ProductImage1.height;
+
+    // Draw image into canvas element
+    imgContext.drawImage(ProductImage1, 0, 0, ProductImage1.width, ProductImage1.height);
+    // Get canvas contents as a data URL
+    var imgAsDataURL = imgCanvas.toDataURL("image/jpg");
+    // Save image into localStorage
+    try {
+        localStorage.setItem("ProductImage", imgAsDataURL);
+    }
+    catch (e) {
+        console.log("Storage failed: " + e);
+    }
+}); 
+
+	
+      </script> 
+
+
+
 </head>
 <body>
+
+
 <div id="backtotop"></div>
    <p id="disclaimer" style="margin: 0; padding: 0">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p>
    <div class="header">
-    
-
   <h1 id="Only">OnlyVans</h1> 
   </div>
    <div class="topnav">
@@ -26,12 +66,15 @@
     <a href="Womenproduct.html">Women</a>
     <a href="Contact.html" target="_blank">Contact</a>
 </div>
+
+
+
 <div style="background-color: #36363697;">
 <h1 style="text-align:center; color: #ffffff; background-color: #36363697; padding: 2%; box-sizing: border-box;"> All Men Products</h1>
 <div class="rowtype2">
  <div class="columntype2">
-    <div style="background-color: #36363697; padding: 5%; margin-bottom: 2%"><a href="Specific%20Product%20Page.html"><img src="Products/Adidas_human_race_nmd_red/Adidas_Human_race_nmd_img1.jpg">
-	<p> Adidas Huamn Race NMD 1 <p> <p>Price:</p></a></div>
+    <div style="background-color: #36363697; padding: 5%; margin-bottom: 2%"><a href="Specific%20Product%20Page.html" onclick="Product1();Product1.addEventListener()" ><img id="ProductImage1" src="Products/Adidas_human_race_nmd_red/Adidas_Human_race_nmd_img1.jpg">
+	<p id="ProuctName1"> Adidas Huamn Race NMD 1 </p> <p id="ProductPrice1">Price:</p></a></div>
      <div style="background-color: #36363697; padding: 5%; margin-bottom: 2%"><img src="Products/Adidas_superstar/Adidas_Superstar_img3.jpg" ><a href="Specific%20Product%20Page.html">
          <p> Adidas Superstar <p> <p>Price:</p></a></div>
     <div style="background-color: #36363697; padding: 5%; margin-bottom: 2%"><img src="Products/Adidas_yeezy_350_v2_zebra/adidas_yeezy350_v2_zebra_img1.jpg" ><a href="Specific%20Product%20Page.html">
@@ -147,5 +190,7 @@
 </div>
 <div style="background-color:#303030;">
 <br><p id="disclaimer">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p> <br></div>
+
+
 
 </body>
