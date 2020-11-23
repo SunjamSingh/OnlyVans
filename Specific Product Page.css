@@ -191,7 +191,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-<!- CODING FOR PAGE BY UDESH STARTED HERE (REMOVE THIS LATER)-->
 
 
 table {
@@ -213,11 +212,6 @@ tr:nth-child(even) {
 
 
 
-
-
-
-
-
 .button {
 
   width:12.5%;
@@ -229,7 +223,7 @@ tr:nth-child(even) {
   text-decoration: none;	
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+    margin-top: 3%;
   cursor: pointer;
 }
 
