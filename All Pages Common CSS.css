@@ -113,7 +113,7 @@ body {
 }
 .column {
   float: left;
-  width: 33.3333%;
+  width: 30%;
   padding: 10px;
 }
 .column a {
