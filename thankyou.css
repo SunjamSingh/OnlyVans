@@ -62,57 +62,20 @@ body {
   margin: 0;
 }
 
-.About
-{
-    background-color: #36363697;
-    box-sizing: border-box;
-    color: #fcfaf7;
-    padding: 20px;
-    display: block;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 92%;
-}
-
-.Terms{
-    background-color: #36363697;
-    box-sizing: border-box;
-    color: #fcfaf7;
-    padding: 20px;
-    display: block;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 92%;
-}
-.webaccessibility
-{
-    background-color: #36363697;
-    box-sizing: border-box;
-    color: #fcfaf7;
-    padding: 20px;
-    display: block;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 92%;
-}
-.webaccessibility a {
-    text-decoration: underline;
+.thankyou {
+    text-align: center;
     color: #ffffff;
+    background-color: #36363697;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 92%;
+    padding: 4%;
+    box-sizing: border-box;
 }
-.webaccessibility a:hover {
-    color: #ffffff;
+.thankyou a:hover {
     background-color: #19c2ff;
-}
-.goals a {
-    text-decoration: underline;
     color: #ffffff;
-}
-.goals a:hover {
-    color: #ffffff;
-    background-color:#19c2ff;
 }
 .footer{
     background-color: #303030;
