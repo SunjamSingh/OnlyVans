@@ -62,8 +62,43 @@ body {
   margin: 0;
 }
 
+.About
+{
+    background-color: #36363697;
+    box-sizing: border-box;
+    color: #fcfaf7;
+    padding: 20px;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
 
-
+.Terms
+{
+    background-color: #36363697;
+    box-sizing: border-box;
+    color: #fcfaf7;
+    padding: 20px;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
+.webaccessibility
+{
+    background-color: #36363697;
+    box-sizing: border-box;
+    color: #fcfaf7;
+    padding: 20px;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+}
 .footer{
     background-color: #303030;
     color:#fcfaf7;

@@ -14,7 +14,7 @@
     font-weight: bold;
 }
 .header {
-    background-color: #c7c7c798;
+    background-color: #36363697;
     box-sizing: border-box;
     padding: 10px;
     width: 100%
@@ -46,13 +46,13 @@ p {
 
 .topnav a {
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16.5px;
   text-decoration: none;
-  font-size: 17px;
-
+  font-size: 100%;
+    height: 100%;
 }
 
 .topnav a:hover {

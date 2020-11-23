@@ -41,19 +41,18 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
-    z-index: 1;
 
 }
 
 .topnav a {
-
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
-  padding:17px;
+  padding: 16.5px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 100%;
+    height: 100%;
 }
 
 .topnav a:hover {
