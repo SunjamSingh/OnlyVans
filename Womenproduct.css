@@ -113,9 +113,11 @@ body {
     padding: 0;
 }
 .column {
-  float: left;
-  width: 30%;
-  padding: 10px;
+    width: 30%;
+    padding: 1%;
+    margin-right: 0.5%;
+    float:left;
+        
 }
 .column a {
     text-align: center;
