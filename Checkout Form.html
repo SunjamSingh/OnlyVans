@@ -2,13 +2,280 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Checkout.css">
+
 <link rel="icon" href="OV_Favicon.ico" type="image/x-icon" />
 <meta charset="UTF-8"> 
 <meta name="author" content="Team OnlyVans (Sunjam Singh, Udesh Kairon, Prabnur Shergill, Shivangi Sharma, Gurleen Singh)">
 <meta name="description" content="Checkout Page">
 
 <title>OnlyVans</title>
+<style>
+    * {
+   font-family: verdana;
+}
+@font-face {
+  font-family: Onlyvans;
+  src: url(fonts/marguerite.ttf);
+}
+.header h1 {
+    text-align: center;
+    font-family: Onlyvans;
+    font-size: 300%;
+    color: #19c2ff;
+    font-weight: bold;
+}
+.header {
+    background-color: #36363697;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%
+}
+p {
+    font-size: 20px;
+}
+#disclaimer {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    font-size: 10px;
+    box-sizing: content-box;
+    width: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16.5px;
+  text-decoration: none;
+  font-size: 100%;
+    height: 100%;
+}
+
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+body {
+  background-image: url("bg-img.svg");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+
+
+.footer{
+    background-color: #303030;
+    color:#fcfaf7;
+    margin: 0;
+    padding: 20px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+#backtotopbtn{
+    text-align: center;
+    text-decoration: none;
+}
+.footer #Contactlist{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer #Contactlist li a {
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+}
+.footer #Policylist{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer #Policylist li a {
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+}
+.footer #webmasterslist {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.column a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #36363697;
+}
+.column a img {
+    width: 100%;
+    height: 100%;
+
+}
+.column h2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.column ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.socials{
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+}
+.socials img {
+    height: 50px;
+    width: 50px;
+    padding: 10px 5px;
+    box-sizing: content-box;
+}
+
+h2{
+text-align:left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row2 {
+	color: #ffffff;
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  width:100.7%;
+}
+
+.col-25 {
+	color: #ffffff;
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+	color: #ffffff;
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+	color: #ffffff;
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+	color: #ffffff;
+  padding: 0 16px;
+}
+
+.container {
+  color: #ffffff;
+  background-color: #36363697;
+  padding: 3px 18px 13px 18px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #19c2ff;
+  color: white;
+  padding: 12px;
+  margin-left: 32%;
+
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+
+}
+
+.btn:hover {
+  background-color: #1989ff;
+}
+
+a {
+  color: #ffffff;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: #ffffff;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+    </style>
 </head>
 <body>
 <div id="backtotop"></div>

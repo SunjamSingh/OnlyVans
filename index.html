@@ -6,9 +6,226 @@
 <meta name="author" content="Team OnlyVans (Sunjam Singh, Udesh Kairon, Prabnur Shergill, Shivangi Sharma, Gurleen Singh)">
 <meta name="description" content="Home Page of OnlyVans Shoe Store">
 <title>OnlyVans</title>
-<link rel="stylesheet" href="IndexSheet.css">
-<link rel="icon" href="OV_Favicon.ico" type="image/x-icon" />
 
+<link rel="icon" href="OV_Favicon.ico" type="image/x-icon" />
+<style>
+    * {
+   font-family: verdana;
+}
+@font-face {
+  font-family: Onlyvans;
+  src: url(fonts/marguerite.ttf);
+}
+
+.header h1 {
+    text-align: center;
+    font-family: Onlyvans;
+    font-size: 300%;
+    color: #19c2ff;
+    font-weight: bold;
+}
+.header {
+    background-color: #36363697;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%
+}
+
+p {
+    font-size: 20px;
+}
+#disclaimer {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    font-size: 10px;
+    box-sizing: content-box;
+    width: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16.5px;
+  text-decoration: none;
+  font-size: 100%;
+    height: 100%;
+}
+
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+body {
+  background-image: url("bg-img.svg");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+.NewArrivals img {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 1%;
+}
+.Discount img {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 1%;
+}
+
+.footer{
+    background-color: #303030;
+    color:#fcfaf7;
+    margin: 0;
+    padding: 20px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+#backtotopbtn{
+    text-align: center;
+    text-decoration: none;
+}
+.footer #Contactlist{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer #Contactlist li a {
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+}
+.footer #Policylist{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.footer #Policylist li a {
+    margin: 0;
+    color: #ffffff;
+    padding: 0;
+}
+.footer #webmasterslist {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 0;
+}
+.column {
+    float: left;
+    width: 30.8%;
+    padding: 1%;
+    margin-right: 0.5%
+    
+}
+.column a {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #36363697;
+}
+.column a img {
+    width: 100%;
+    height: 100%;
+
+}
+.column h2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.column ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.socials{
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+}
+.socials img {
+    height: 50px;
+    width: 50px;
+    padding: 10px 5px;
+    box-sizing: content-box;
+}
+
+
+
+.About
+{
+    background-color: #36363697;
+    box-sizing: border-box;
+    color: #fcfaf7;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("AboutUs_home.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    padding-top: 35%;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1),
+and (min-device-width: 1000px), 
+and (max-device-width: 1600px)  { 
+    .parallax {background-attachment: scrolling;}  
+} 
+@media screen and (min-resolution: 192dpi) { 
+    .parallax {background-attachment: scrolling;}  
+}
+.productshome {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+.productshome img {
+    
+}
+    </style>
 </head>
 <body>
 <div id="backtotop"></div>
