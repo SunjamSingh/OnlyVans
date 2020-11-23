@@ -25,12 +25,12 @@
     <a href="Contact.html" target="_blank">Contact</a>
 </div>
 
-<div class="row">
+<div class="row2" style="margin-top:2%; padding-top:2%; padding-bottom:2%; background-color:#36363697; ">
   <div class="col-75">
     <div class="container">
       <form>
       
-        <div class="row">
+        <div class="row2">
           <div class="col-50">
             <h3>Billing Address</h3>
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
@@ -42,7 +42,7 @@
             <label for="city"><i class="fa fa-institution"></i> City</label>
             <input type="text" id="city" name="city" placeholder="New York">
 
-            <div class="row">
+            <div class="row2">
               <div class="col-50">
                 <label for="state">State</label>
                 <input type="text" id="state" name="state" placeholder="NY">
@@ -58,10 +58,11 @@
             <h3>Payment</h3>
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
-              <i class="fa fa-cc-visa" style="color:navy;"></i>
-              <i class="fa fa-cc-amex" style="color:blue;"></i>
-              <i class="fa fa-cc-mastercard" style="color:red;"></i>
-              <i class="fa fa-cc-discover" style="color:orange;"></i>
+
+              <i class="fa fa-cc-visa" style="color:navy;">Visa</i>
+              <i class="fa fa-cc-amex" style="color:blue;">Amex</i>
+              <i class="fa fa-cc-mastercard" style="color:red;">Mastercard</i>
+              <i class="fa fa-cc-discover" style="color:orange;">Discover</i>
             </div>
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="John More Doe">
@@ -91,13 +92,10 @@
   </div>
   <div class="col-25">
     <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-      <p><a href="#">IPHONE</a> <span class="price">$1500</span></p>
-      <p><a href="#">SAMSUNG</a> <span class="price">$500</span></p>
-      <p><a href="#">OPPO</a> <span class="price">$400</span></p>
-      <p><a href="#">HUAWEI</a> <span class="price">$200</span></p>
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span></h4>
+      <p><a id="p2" style="font-size:14px;" href="#"></a> <span style="font-size:14px" id="p1" class="price">$1500</span></p>
       <hr>
-      <p>Total <span class="price" style="color:black"><b>$2600</b></span></p>
+      <p>Total <span id="p3" class="price" style="color:#ffffff"><b>$2600</b></span></p>
     </div>
   </div>
 </div>
@@ -149,5 +147,20 @@
 </div>
 <div style="background-color:#303030;">
 <br><p id="disclaimer">This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi</p> <br></div>
+
+
+
+<script>
+
+      var x = " " + localStorage.getItem("ProductPrice");
+      document.getElementById("p1").innerHTML = x; 
+	  
+	  var  y= " " + localStorage.getItem("ProductName");
+      document.getElementById("p2").innerHTML = y; 
+	  
+	        var z = " " + localStorage.getItem("ProductPrice");
+      document.getElementById("p3").innerHTML = z; 
+	  </script
+
 </body>
 </html>
