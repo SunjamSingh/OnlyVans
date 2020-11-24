@@ -239,7 +239,7 @@ label {
   background-color: #19c2ff;
   color: white;
   padding: 12px;
-  margin-left: 32%;
+
 
   border: none;
   width: 100%;
@@ -297,7 +297,7 @@ span.price {
 <div class="row2" style="margin-top:2%; padding-top:2%; padding-bottom:2%; background-color:#36363697; ">
   <div class="col-75">
     <div class="container">
-      <form>
+      <form action="https://formspree.io/f/mnqobqev" method="POST">
       
         <div class="row2">
           <div class="col-50">
@@ -352,21 +352,24 @@ span.price {
           </div>
           
         </div>
-        <label>
+        <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span></h4>
+      <label for="Product" id="p2" style="font-size:14px; text-decoration: none;"></label>
+      <label for="Product price" style="font-size:14px" id="p1" class="price"></label>
+      <hr>
+     Total <span id="p3" class="price" style="color:#ffffff"><b></b></span>
+    </div>
+  </div><br>
+         <label>
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label><br>
-        <a href="thankyou.html" class="btn">Continue to Checkout</a>
+         <input type="submit" value="Continue to checkout" class="btn">
+      
       </form>
     </div>
   </div>
-  <div class="col-25">
-    <div class="container">
-      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span></h4>
-      <p id="p2" style="font-size:14px; text-decoration: none;"> <span style="font-size:14px" id="p1" class="price">$1500</span></p>
-      <hr>
-      <p>Total <span id="p3" class="price" style="color:#ffffff"><b>$2600</b></span></p>
-    </div>
-  </div>
+  
 </div>
 
 <br><br>
@@ -429,7 +432,8 @@ span.price {
 	  
 	        var z = " " + localStorage.getItem("ProductPrice");
       document.getElementById("p3").innerHTML = z; 
-	  </script
+
+    </script>
 
 </body>
 </html>
